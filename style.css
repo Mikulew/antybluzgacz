@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Barrio', cursive;
+    font-size: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form > h1 {
+    margin-bottom: 2rem;
+}
+
+#form > .inputField > textarea {
+    font-size: 2rem;
+    resize: none;
+    width: 100%;
+}
+
+#form > .inputField > .btn {
+    font-family: 'Barrio', cursive;
+    background: aqua;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+#form > .inputField > .btn:hover {
+    background: red;
+    color: yellow;
+}
